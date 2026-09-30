@@ -12,7 +12,9 @@ public class DoWhileProgram2 {
 	      System.out.println("Enter Number 2");
 	      int num2=sc.nextInt();
 	      
-	      
+	      int choice;
+	      double result;
+	      do {
 	      System.out.println("Menu");
 	      System.out.println("1. Addtion");
 	      System.out.println("2. Subraction");
@@ -21,8 +23,8 @@ public class DoWhileProgram2 {
 	      System.out.println("0. Exit");
 	      
 	      System.out.println("Enter choice ");
-	      int choice=sc.nextInt();
-	      double result=0.0;
+	      choice=sc.nextInt();
+	      result = 0.0;
 	      switch(choice) {
 	      case 1: result=num1+num2;break;
 	      case 2: result=num1-num2;break;
@@ -31,7 +33,11 @@ public class DoWhileProgram2 {
 	      case 0: System.exit(0);
 	      default:System.out.println("invalid input");
 	      }
-	      System.out.println(result);
+	      System.out.println("result"+result);
+	      }
+	      
+	      while(choice!=0);
+	      
 	      
 	}
 
