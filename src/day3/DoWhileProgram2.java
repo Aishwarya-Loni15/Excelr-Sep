@@ -24,4 +24,23 @@ public class DoWhileProgram2 {
 	      
 	      System.out.println("Enter choice ");
 	      choice=sc.nextInt();
-	      r
+	      result = 0.0;
+	      switch(choice) {
+	      case 1: result=num1+num2;break;
+	      case 2: result=num1-num2;break;
+	      case 3: result=num1/num2;break;
+	      case 4: result=num1*num2;break;
+	      case 0: System.exit(0);
+	      default:System.out.println("invalid input");
+	      }
+	      System.out.println("result"+result);
+	      }
+	      
+	      while(choice!=0);
+	      
+	      
+	}
+
+	}
+
+
