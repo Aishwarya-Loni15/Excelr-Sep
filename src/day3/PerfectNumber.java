@@ -15,5 +15,12 @@ public class PerfectNumber {
 			   sum=sum+i;
 		   }
 	   }
-
+	   if(sum==num) {
+		   System.out.println("Number is perfect");
+	   }
+	   else {
+		   System.out.println("Number is not perfect");
+		   
+	   }
+   }
 }
