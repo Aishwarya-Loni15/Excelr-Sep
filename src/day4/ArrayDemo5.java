@@ -5,3 +5,10 @@ public class ArrayDemo5 {
 		
 		int arr[]= {23, 18, 6, 40, 28};
 		
+		System.out.println("Perfect numbers from array are as follows"+arr);
+		
+		}
+
+}
+
+
